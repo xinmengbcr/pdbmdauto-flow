@@ -1,0 +1,17 @@
+name: pdbmdauto
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9.18
+  - pandas
+  - conda-forge::biopython
+  - conda-forge::pymol-open-source
+  - openssl
+  - curl
+  - salilab::modeller
+  - gromacswrapper
+  - pysqa
+  - conda-forge::paramiko
+  - conda-forge::tqdm
+  - conda-forge::gromacs
